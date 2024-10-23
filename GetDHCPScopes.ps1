@@ -2,7 +2,7 @@
 Import-Module DhcpServer
 
 # Define the DHCP server
-$dhcpServer = "sys-admdhcp1"
+$dhcpServer = "SERVERNAME"
 
 # Get all DHCP scopes from the specified server
 $scopes = Get-DhcpServerv4Scope -ComputerName $dhcpServer
